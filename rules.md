@@ -12,7 +12,7 @@ These are the Rules for the All the hackathon Events and Related Things
 ----
 5. Everyone Attending The Hackathon Has to pay the Fees of Rs.400.This Price is for the Tshirt,Venue Charges, Food Expenses etc...
 ----
-6. Since this is a 24 Hour hackathon. People are not Expected to Sleep but those who want to Sleep will be given a Bed for naps.
+6. Since this is a 30 Hour hackathon. People are not Expected to Sleep but those who want to Sleep will be given a Bed for naps.
 ----
 7. Everyone attending Should bring their laptops to Hack-on, no laptops or accessories will be provided by the Organizers.
 ----
@@ -36,5 +36,5 @@ These are the Rules for the All the hackathon Events and Related Things
 ----
 17. Decision of the jury is final.
 ----
-18. Prize is for a Team of 5 if the Team doesn't have  5 Members, the Organizers have full authority to **Cut down the Prize Money**
+18. Prize is for a Team of 4 if the Team doesn't have  4 Members, the Organizers have full authority to **Cut down the Prize Money**
 ---
