@@ -1,7 +1,7 @@
 # Rules
 These are the Rules for the All the hackathon Events and Related Things
 --------
-1. The Problem Statements will be Given 2 days Ago. A team of 4-5 members are compulsory. 
+1. A Team Can Have Maximum 4 Members
 -----
 2 . You Should Not Start with the Project Before the Event.
   - If Found , you will be Disqualified from the Event and will not be eligible for Pizes or Presenting.
@@ -9,8 +9,6 @@ These are the Rules for the All the hackathon Events and Related Things
 3. The Organizers nor Volunteers will not be held Responsible for your Properties. 
 ----
 4. If we find any one Damages a property/equipment of The College, they'll be charged the Price of the Property Damaged, this will be non-partial.
-----
-5. Everyone Attending The Hackathon Has to pay the Fees of Rs.400.This Price is for the Tshirt,Venue Charges, Food Expenses etc...
 ----
 6. Since this is a 30 Hour hackathon. People are not Expected to Sleep but those who want to Sleep will be given a Bed for naps.
 ----
@@ -35,6 +33,4 @@ These are the Rules for the All the hackathon Events and Related Things
 16. All the Hacks should be either be **openly** available in GitHub or GitLab and should be licensed under MIT/BSD 3-Clause/GPL 3.0/2.0/AGPL Licensing.
 ----
 17. Decision of the jury is final.
-----
-18. Prize is for a Team of 4 if the Team doesn't have  4 Members, the Organizers have full authority to **Cut down the Prize Money**
 ---
