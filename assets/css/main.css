@@ -324,6 +324,46 @@ section.hero .inner-hero {
     padding: 12px 0;
     position: relative;
 }
+
+.main-nav li a:hover{
+    color: #5ABC92;
+    transition: color 0.2s ease-in-out;
+
+}
+
+.main-nav li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0; /* Initially set width to 0 */
+    height: 2px;
+    background-color: #5ABC92;
+    transition: width 0.2s ease-in-out; /* Add transition effect for width */
+  }
+
+.main-nav li a:hover::after {
+    width: 100%; /* Expand width to 100% on hover */
+}
+
+.main-nav li a.active::after {
+    width: 100%; 
+}
+
+
+.main-nav ul li a.active {
+    color: #5ABC92;
+}
+
+
+/* Add hover animation to menu button */
+.menu-nav li a:hover,
+.menu-nav li a.active { /* Apply hover styles to active menu button */
+  color: #5ABC92;
+  transition: color 0.2s ease-in-out;
+}
+  
+
 .hero-content {
     position: relative;
     text-align: center;
@@ -1341,7 +1381,6 @@ select.error {
         margin-top: 20px;
     }
     .block-ticket {
-        -webkit-transform: scale(1);
         opacity: 1;
     }
     .block-tab {
