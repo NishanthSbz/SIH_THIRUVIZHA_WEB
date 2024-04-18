@@ -245,6 +245,14 @@ section.hero .inner-hero {
     width: 100%;
     z-index: 999;
 }
+
+
+
+
+
+
+
+
 .main-slider .slides li {
     height: 100vh;
 }
@@ -369,7 +377,7 @@ section.hero .inner-hero {
 .hero-content {
     position: relative;
     text-align: center;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
