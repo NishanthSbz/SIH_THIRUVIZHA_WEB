@@ -142,14 +142,13 @@ section.hero {
 section.single-hero {
     min-height: 400px;
 }
-.background-img img {
-    display: none;
-}
+
 .background-img {
     width: 100%;
-    height: 100%;  
+    height: 110%; 
+     
 }
-.background-img {
+.background-img img {
     background-attachment: scroll;
     background-clip: border-box;
     background-color: #353031;
@@ -161,10 +160,11 @@ section.single-hero {
     height: 100%;
     left: 0;
     position: absolute;
-    top: 0;
+    top: -10px;
     width: 100%;
     z-index: 0;
 }
+
 .bg-img {
     width: 100%;
     height: 100%;
@@ -246,7 +246,7 @@ section.hero .inner-hero {
     z-index: 999;
 }
 .main-slider .slides li {
-    height: 900px;
+    height: 100vh;
 }
 .header .logo {
     font-size: 25px;
@@ -317,12 +317,14 @@ section.hero .inner-hero {
     font-size: 13px;
     font-weight: 400;
     margin-left: 35px;
+    margin-top: 1%;
 }
 .main-nav li a {
     color: #ffffff;
     display: block;
-    padding: 12px 0;
+    padding: 10px 0;
     position: relative;
+    text-transform: uppercase;
 }
 
 .main-nav li a:hover{
@@ -421,6 +423,56 @@ h1.large {
 
 /* Speakers section*/
 
+#mentors .small-title {
+    font-size: 34px;
+    text-align: center;
+    padding: 20px;
+    ; /* Adjust font size as needed */
+}
+
+#mentors .coordinators {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#mentors .coordinator {
+    margin-bottom: 20px;
+}
+
+#mentors .name {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+#mentors .department {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.block-content.judges .jury-list {
+    display: flex;
+    flex-direction: row; /* Display items vertically */
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between; /* Center items horizontally */
+}
+
+.block-content.judges .jury {
+    margin-bottom: 20px; /* Adjust vertical spacing between items */
+    text-align: center;
+}
+
+.block-content.judges .name {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.block-content.judges .designation {
+    margin-top: 0;
+    font-size: 14px; /* Adjust font size as needed */
+}
+
 .block-img {
     height: 350px;
     position: relative;
@@ -496,6 +548,12 @@ h1.large {
         display: block;
        
         
+    }
+    .block-content.judges .jury-list {
+        display: flex;
+        flex-direction: column; /* Display items vertically */
+        align-items: center;
+        justify-content: space-between; /* Center items horizontally */
     }
 }
 /* End speakers section*/
@@ -592,7 +650,7 @@ ul.block-topic li {
     display: block;
 }
 .block-tab li .block-date {
-    background: #444444;
+    background: #F04935;
     line-height: 60px;
     padding-left: 25px;
     border-radius: 5px 5px 0 0;
@@ -1556,5 +1614,12 @@ select.error {
 @media only screen and (max-width:479px){
     .block-ticket .block-price .price{
         font-size: 65px;
+    }
+
+    .hero-content img{
+        height: 300px;
+        padding-top: 30px;
+        width: 300px;
+
     }
 }
