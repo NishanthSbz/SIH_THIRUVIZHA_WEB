@@ -400,7 +400,7 @@ h1.large {
 .hero-content p {
     font-size: 15px;
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     color: #ffffff;
 }
 /* End hero section*/
@@ -1154,8 +1154,8 @@ select.error {
 }
 .block-legal li:last-child a {
     border-right: none;
-    margin-right: 0;
-    padding-right: 0;
+    /* margin-right: 0;
+    padding-right: 0; */
 }
 .block-legal li:last-child a:before {
     content: none;
@@ -1223,7 +1223,7 @@ select.error {
         margin-bottom: 6px;
     }
     .block-legal {
-        text-align: left;
+        text-align: right;
         margin-top: 5px;
     }
     .registry-form input[type="text"] {
@@ -1278,7 +1278,7 @@ select.error {
         margin-bottom: 6px;
     }
     .block-legal {
-        text-align: left;
+        text-align: right;
         margin-top: 5px;
     }
 }
@@ -1380,7 +1380,7 @@ select.error {
         margin-bottom: 6px;
     }
     .block-legal {
-        text-align: left;
+        text-align: right;
         margin-top: 5px;
     }
 }
@@ -1479,7 +1479,7 @@ select.error {
         margin-bottom: 20px;
     }
     .block-legal {
-        text-align: left;
+        text-align: right;
         margin-top: 5px;
     }
     .top-footer .block-social {
@@ -1596,7 +1596,7 @@ select.error {
         margin-bottom: 20px;
     }
     .block-legal {
-        text-align: left;
+        text-align: right;
         margin-top: 5px;
     }
     .insta-Feed li:after,
@@ -1626,8 +1626,32 @@ select.error {
 
     .hero-content img{
         height: 300px;
-        padding-top: 30px;
+        /* padding-top: 30px; */
         width: 300px;
 
+    }
+}
+
+
+/* footer styles */
+
+
+@media (max-width: 767px) {
+    .bottom-footer .container .col-md-6 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .bottom-footer .container .col-md-6 .ips_logo {
+        margin-right: 0;
+        margin-bottom: 15px; /* Adjust margin for spacing */
+    }
+    
+    .bottom-footer .container .col-md-6 div:last-child p {
+        font-size: 18px; /* Adjust font size for the footer text */
+    }
+    
+    .bottom-footer .container .col-md-6.menu-nav {
+        justify-content: flex-start;
     }
 }
