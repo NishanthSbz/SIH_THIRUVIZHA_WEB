@@ -551,7 +551,7 @@ h1.large {
     
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1208px){
     .block-content .row {
         display: block;
        
